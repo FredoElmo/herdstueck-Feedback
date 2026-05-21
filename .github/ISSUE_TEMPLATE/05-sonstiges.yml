@@ -1,0 +1,18 @@
+name: "📌 Sonstiges"
+description: "Kein passendes Label? Trotzdem eintragen."
+title: "[Sonstiges] "
+labels: ["sonstiges"]
+body:
+  - type: textarea
+    id: nachricht
+    attributes:
+      label: "Was liegt dir auf dem Herzen?"
+      placeholder: "Alles ist willkommen."
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: "Screenshot (optional)"
+      description: "Einfach per Drag & Drop hier einfügen."

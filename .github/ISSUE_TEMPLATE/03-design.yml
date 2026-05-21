@@ -1,0 +1,40 @@
+name: "🎨 Design"
+description: "Etwas sieht komisch aus oder fühlt sich falsch an."
+title: "[Design] "
+labels: ["design"]
+body:
+  - type: textarea
+    id: beschreibung
+    attributes:
+      label: "Was fühlt sich falsch an?"
+      description: "UI, UX, Farben, Abstände, Lesbarkeit, Formulierungen — alles ist erlaubt."
+      placeholder: "Der Button auf der Rezeptseite ist schwer zu treffen. Der Text ist zu klein auf ..."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: bereich
+    attributes:
+      label: "Welcher Bereich?"
+      options:
+        - Kochbuch (Startseite)
+        - Rezeptdetail
+        - Koch-Modus
+        - Wochenplan
+        - Einkaufsliste
+        - Einstellungen
+        - Anderes
+    validations:
+      required: true
+
+  - type: textarea
+    id: vorschlag
+    attributes:
+      label: "Hast du eine Idee, wie es besser sein könnte? (optional)"
+      placeholder: "Ich würde mir vorstellen, dass ..."
+
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: "Screenshot (optional)"
+      description: "Einfach per Drag & Drop hier einfügen."

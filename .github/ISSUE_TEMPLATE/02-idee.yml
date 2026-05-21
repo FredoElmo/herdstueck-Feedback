@@ -1,0 +1,31 @@
+name: "💡 Idee"
+description: "Dir fehlt etwas oder du hast einen Verbesserungsvorschlag."
+title: "[Idee] "
+labels: ["feature-wunsch"]
+body:
+  - type: textarea
+    id: idee
+    attributes:
+      label: "Was wünschst du dir?"
+      description: "Beschreib die Idee so konkret wie möglich."
+      placeholder: "Ich würde gerne ..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: kontext
+    attributes:
+      label: "Warum wäre das nützlich?"
+      description: "In welcher Situation würdest du das nutzen?"
+      placeholder: "Wenn ich ... mache, fehlt mir ..."
+
+  - type: dropdown
+    id: prioritaet
+    attributes:
+      label: "Wie wichtig ist dir das?"
+      options:
+        - "Wäre schön, aber kein Muss"
+        - "Würde ich oft nutzen"
+        - "Fehlt mir wirklich"
+    validations:
+      required: true

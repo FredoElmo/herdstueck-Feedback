@@ -1,0 +1,42 @@
+name: "⚡ Performance"
+description: "Die App ist langsam, ruckelt oder reagiert träge."
+title: "[Performance] "
+labels: ["performance"]
+body:
+  - type: textarea
+    id: beschreibung
+    attributes:
+      label: "Was ist langsam oder träge?"
+      placeholder: "Das Laden der Rezeptliste dauert lange. Der Übergang zwischen ... ruckelt."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: haeufigkeit
+    attributes:
+      label: "Wie oft passiert das?"
+      options:
+        - Immer
+        - Meistens
+        - Manchmal
+        - Einmalig
+    validations:
+      required: true
+
+  - type: dropdown
+    id: geraet
+    attributes:
+      label: "Gerät"
+      options:
+        - iPhone
+        - Android
+        - Desktop (Browser)
+        - Anderes
+    validations:
+      required: true
+
+  - type: textarea
+    id: kontext
+    attributes:
+      label: "Weiterer Kontext (optional)"
+      placeholder: "WLAN oder mobiles Netz? Wie viele Rezepte hast du gespeichert?"

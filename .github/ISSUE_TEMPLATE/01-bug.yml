@@ -1,0 +1,43 @@
+name: "🐛 Bug"
+description: "Etwas funktioniert nicht."
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: beschreibung
+    attributes:
+      label: "Was ist passiert?"
+      description: "Kurz beschreiben, was du erwartet hast und was stattdessen passiert ist."
+      placeholder: "Ich habe X gemacht, dann ist Y passiert. Ich hätte Z erwartet."
+    validations:
+      required: true
+
+  - type: textarea
+    id: schritte
+    attributes:
+      label: "Wie lässt sich der Bug nachstellen?"
+      description: "Schritt für Schritt, damit ich es reproduzieren kann."
+      placeholder: |
+        1. Auf ... tippen
+        2. Dann ...
+        3. Fehler erscheint
+    validations:
+      required: true
+
+  - type: dropdown
+    id: geraet
+    attributes:
+      label: "Gerät"
+      options:
+        - iPhone
+        - Android
+        - Desktop (Browser)
+        - Anderes
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: "Screenshot (optional)"
+      description: "Einfach per Drag & Drop hier einfügen."

@@ -1,7 +1,7 @@
 name: "📌 Sonstiges"
 description: "Kein passendes Label? Trotzdem eintragen."
 title: "[Sonstiges] "
-labels: ["sonstiges"]
+labels: ["etwas anderes 📌"]
 body:
   - type: textarea
     id: nachricht

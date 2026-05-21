@@ -1,7 +1,7 @@
 name: "🎨 Design"
 description: "Etwas sieht komisch aus oder fühlt sich falsch an."
 title: "[Design] "
-labels: ["design"]
+labels: ["design 🎨"]
 body:
   - type: textarea
     id: beschreibung
@@ -20,10 +20,9 @@ body:
         - Kochbuch (Startseite)
         - Rezeptdetail
         - Koch-Modus
-        - Essensplan
+        - Wochenplan
         - Einkaufsliste
         - Einstellungen
-        - Fremdes Haushalts-Kochbuch
         - Anderes
     validations:
       required: true

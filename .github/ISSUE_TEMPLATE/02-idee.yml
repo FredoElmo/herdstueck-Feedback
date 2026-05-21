@@ -1,7 +1,7 @@
 name: "💡 Idee"
 description: "Dir fehlt etwas oder du hast einen Verbesserungsvorschlag."
 title: "[Idee] "
-labels: ["feature-wunsch"]
+labels: ["ideen 💡"]
 body:
   - type: textarea
     id: idee

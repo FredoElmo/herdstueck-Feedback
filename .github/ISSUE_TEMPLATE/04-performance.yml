@@ -1,7 +1,7 @@
 name: "⚡ Performance"
 description: "Die App ist langsam, ruckelt oder reagiert träge."
 title: "[Performance] "
-labels: ["performance"]
+labels: ["performance ⚡"]
 body:
   - type: textarea
     id: beschreibung

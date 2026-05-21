@@ -20,9 +20,10 @@ body:
         - Kochbuch (Startseite)
         - Rezeptdetail
         - Koch-Modus
-        - Wochenplan
+        - Essensplan
         - Einkaufsliste
         - Einstellungen
+        - Fremdes Haushalts-Kochbuch
         - Anderes
     validations:
       required: true
